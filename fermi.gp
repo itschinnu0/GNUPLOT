@@ -9,8 +9,8 @@ set yrange [0.4635:0.5073]
 set xtics 5
 set ytics 0.005
 
-set label 1 sprintf("Slope = %2f", m) at 355,0.515
-set label 2 sprintf("Intercept = %3.4f", c) at 355,0.510
+set label 1 sprintf("Slope = %2f", m) at 325,0.5
+set label 2 sprintf("Intercept = %3.4f", c) at 325,0.495
 
 set xlabel "T (K)"
 set ylabel "R ({/Symbol W})"
